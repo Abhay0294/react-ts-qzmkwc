@@ -11,9 +11,7 @@ export default function App() {
         [fieldName]: e.currentTarget.value,
       });
     };
-  const handleSubmit = () => {
-    console.log('Hurrah');
-  };
+  const handleSubmit = () => {};
 
   return (
     <form onSubmit={handleSubmit}>
@@ -44,6 +42,4 @@ function setFormFields(arg0: {
   name: string;
   email: string;
   password: number;
-}) {
-  throw new Error('Function not implemented.');
-}
+}) {}
